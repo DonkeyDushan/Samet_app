@@ -14,6 +14,8 @@ export type FamilyName =
 
 /** A single story character and the family they belong to. */
 export type Character = {
+  /** Stable identifier: the character's first name, lowercased and stripped of diacritics. */
+  readonly id: string;
   /** Full display name, including maiden name ("rozená ...") when applicable. */
   readonly name: string;
   /** Family this character belongs to. */

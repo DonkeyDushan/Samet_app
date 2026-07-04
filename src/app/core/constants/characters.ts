@@ -6,33 +6,33 @@ import type { Character } from "../types/character";
  * mutation of shared reference data.
  */
 export const CHARACTERS: readonly Character[] = Object.freeze([
-  { name: "Antonín Hájek", family: "Hájkovi" },
-  { name: "Věra Hájková, rozená Štiková", family: "Hájkovi" },
-  { name: "Růžena Štiková", family: "Hájkovi" },
+  { id: "antonin", name: "Antonín Hájek", family: "Hájkovi" },
+  { id: "vera", name: "Věra Hájková, rozená Štiková", family: "Hájkovi" },
+  { id: "ruzena", name: "Růžena Štiková", family: "Hájkovi" },
 
-  { name: "František Pokorný", family: "Pokorní" },
-  { name: "Karel Pokorný", family: "Pokorní" },
-  { name: "Anna Pokorná, rozená Nagyová", family: "Pokorní" },
-  { name: "Zuzana Pokorná", family: "Pokorní" },
-  { name: "Miroslav Pokorný", family: "Pokorní" },
+  { id: "frantisek", name: "František Pokorný", family: "Pokorní" },
+  { id: "karel", name: "Karel Pokorný", family: "Pokorní" },
+  { id: "anna", name: "Anna Pokorná, rozená Nagyová", family: "Pokorní" },
+  { id: "zuzana", name: "Zuzana Pokorná", family: "Pokorní" },
+  { id: "miroslav", name: "Miroslav Pokorný", family: "Pokorní" },
 
-  { name: "Štefan Baláž", family: "Balážovi" },
-  { name: "Ilona Balážová, rozená Danielová", family: "Balážovi" },
-  { name: "Marie Balážová", family: "Balážovi" },
+  { id: "stefan", name: "Štefan Baláž", family: "Balážovi" },
+  { id: "ilona", name: "Ilona Balážová, rozená Danielová", family: "Balážovi" },
+  { id: "marie", name: "Marie Balážová", family: "Balážovi" },
 
-  { name: "Jan Svoboda", family: "Svobodovi" },
-  { name: "Helena Svobodová, rozená Černá", family: "Svobodovi" },
-  { name: "Lenka Svobodová", family: "Svobodovi" },
-  { name: "Petra Svobodová", family: "Svobodovi" },
+  { id: "jan", name: "Jan Svoboda", family: "Svobodovi" },
+  { id: "helena", name: "Helena Svobodová, rozená Černá", family: "Svobodovi" },
+  { id: "lenka", name: "Lenka Svobodová", family: "Svobodovi" },
+  { id: "petra", name: "Petra Svobodová", family: "Svobodovi" },
 
-  { name: "Ladislav Novák", family: "Novákovi" },
-  { name: "Oľga Nováková, rozená Mikušová", family: "Novákovi" },
-  { name: "Zdenko Novák", family: "Novákovi" },
+  { id: "ladislav", name: "Ladislav Novák", family: "Novákovi" },
+  { id: "olga", name: "Oľga Nováková, rozená Mikušová", family: "Novákovi" },
+  { id: "zdenko", name: "Zdenko Novák", family: "Novákovi" },
 
-  { name: "Vladimír Kráľ", family: "Kráľovi" },
-  { name: "Dagmar Kráľová, rozená Veselá", family: "Kráľovi" },
-  { name: "Pavol Kráľ", family: "Kráľovi" },
+  { id: "vladimir", name: "Vladimír Kráľ", family: "Kráľovi" },
+  { id: "dagmar", name: "Dagmar Kráľová, rozená Veselá", family: "Kráľovi" },
+  { id: "pavol", name: "Pavol Kráľ", family: "Kráľovi" },
 
-  { name: "Ivan Macháček", family: "Macháčkovi" },
-  { name: "Jaroslava Macháčková, rozená Kováčová", family: "Macháčkovi" },
+  { id: "ivan", name: "Ivan Macháček", family: "Macháčkovi" },
+  { id: "jaroslava", name: "Jaroslava Macháčková, rozená Kováčová", family: "Macháčkovi" },
 ]);
