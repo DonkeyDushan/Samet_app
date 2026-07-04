@@ -14,6 +14,9 @@ export const HomePage = (): React.ReactElement => {
       <Typography variant="body1">{t("common:welcome_subtitle")}</Typography>
 
       <div className={styles.actions}>
+        <Button variant="outlined" data-testid="home-page--get-started">
+          {t("buttons:get_started")}
+        </Button>
         <Button variant="contained" data-testid="home-page--get-started">
           {t("buttons:get_started")}
         </Button>

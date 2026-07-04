@@ -2,6 +2,7 @@ import { createTheme, type Theme } from "@mui/material/styles";
 import { palette } from "./palette";
 import { typography } from "./typography";
 import { shape, SPACING_UNIT_PX } from "./shape";
+import { components } from "./components";
 
 /**
  * Builds the application MUI theme from the concern-split token modules.
@@ -16,4 +17,5 @@ export const createAppTheme = (): Theme =>
     typography,
     shape,
     spacing: SPACING_UNIT_PX,
+    components,
   });
