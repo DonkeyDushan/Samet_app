@@ -2,8 +2,8 @@
 
 ## Language
 
-- All code comments, variable names, function names, type names, and any other text within source code must be written in **English**.
-- UI strings (visible to the user in the browser) are an exception — they live in `src/strings.ts` and may be in any language.
+- All code comments, variable names, function names, type names, object/JSON keys, and any other text within source code must be written in **English**.
+- The **only** exception is UI strings visible to the user in the browser — they live in `src/strings.ts` and may be in any language. Everything else, including data keys and JSON field names, is English.
 - Documentation files (README, etc.) must also be in **English**.
 
 ## Functions
